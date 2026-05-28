@@ -50,7 +50,7 @@ with open("python.txt","r") as f:
     for ch in data:
         if ch in vowels:
             count+=1
-    print("Total vowels:",count)
+    print("Total vowels:",count)#Total vowels: 9
     
 #10
 with open("python.txt","r") as f:
@@ -60,4 +60,4 @@ with open("python.txt","r") as f:
     for word in words:
         if len(word)>len(longest):
             longest=word
-    print("longest word:",longest)
+    print("longest word:",longest)#longest word: Handling
